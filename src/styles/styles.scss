@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,500);
+
+html,
+body {
+  height: 100%;
+  padding-top: 20px;
+  background: pink;
+}
+
+#wrapper {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+    
+}
+
+#quote-box {
+  border-radius:3px;
+  position: relative;
+  height: 400px;
+  width:450px;
+  padding:10px 10px;
+  background-color:white;
+  grid-column: 3;
+  grid-row: 2/4;
+  display: grid;
+  grid-template-columns:
+    1fr 1fr 1fr;
+  grid-template-rows:
+    1fr 1fr 1fr 1fr; 
+}
+
+Button {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+#text {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 22px;
+}
+
+#author {
+  padding-top: 15px;
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 18px;
+}
