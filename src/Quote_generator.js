@@ -55,11 +55,12 @@ class Wrapper extends React.Component {
 					</div>
 					<Button
 						id="new-quote"
-						// bsSize="large"
+						variant="link"
+						bsSize="lg"
 						onClick={this.getRandomQuoteNum}
+						style={{ color: 'black' }}
 					>
-					<a className="effect-5" href="" data-content="Link-effect" style={{ color: 'black' }}
-					>
+					<a className="effect-5" href="javascript:" data-content="Link-effect">
 					<span>
 					Get Quotes
 					</span>
@@ -70,7 +71,7 @@ class Wrapper extends React.Component {
 						value="link"
 						id="tweet-quote"
 					>
-						<i class="fa fa-twitter fa-3x"></i>
+						<i style={{ color: '#00ACEE' }} class="fa fa-twitter fa-3x"></i>
 					</a>
 				</div>
 			</div>
