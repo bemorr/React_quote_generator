@@ -55,12 +55,15 @@ class Wrapper extends React.Component {
 					</div>
 					<Button
 						id="new-quote"
-            className="effect-5"
-						bsStyle="info"
-						bsSize="large"
+						// bsSize="large"
 						onClick={this.getRandomQuoteNum}
 					>
-						Get Quotes
+					<a className="effect-5" href="" data-content="Link-effect" style={{ color: 'black' }}
+					>
+					<span>
+					Get Quotes
+					</span>
+					</a>
 					</Button>
 					<a
 						href="twitter.com/intent/tweet"
