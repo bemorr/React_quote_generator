@@ -4,6 +4,7 @@ import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 import './styles/styles.scss';
 
+
 class Wrapper extends React.Component {
 	constructor(props) {
 		super(props);

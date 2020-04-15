@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode=development",
+    "start": "webpack --mode=development && node ./server/server.js",
     "build": "webpack --mode=production",
     "dev-server": "webpack-dev-server",
     "heroku-postbuild": "webpack --config webpack.config.js"
@@ -31,6 +31,7 @@
     "@popperjs/core": "^2.3.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.0",
     "react": "^16.13.1",
