@@ -1,5 +1,7 @@
 # node modules
 node_modules
+<<<<<<< HEAD
 # Any local VSCode config files
 .vscode/
 .vscode
+=======
