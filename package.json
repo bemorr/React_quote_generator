@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",

@@ -51,7 +51,7 @@ class Wrapper extends React.Component {
 						"{this.state.quote}"
 					</div>
 					<div id="author" style={{ color: 'black' }}>
-						"{this.state.author}"
+						{this.state.author}
 					</div>
 					<Button
 						id="new-quote"
