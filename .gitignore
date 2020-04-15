@@ -1,1 +1,4 @@
+# node modules
 node_modules
+#VS code local configs
+.vscode
